@@ -1,5 +1,4 @@
 import fundoSection from "../../images/Logo/fundo-section.svg";
-import logo from "../../images/Logo/Logo Faculdade Cerrado - Colorida - Lateral.png";
 const NewsSection = () => {
   const newsData = [
     {
@@ -8,7 +7,7 @@ const NewsSection = () => {
       title: "lorem ipsum dolor sit amet - lorem ipsum dolor sit amet",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-      image: logo,
+      image: "",
       link: "/noticias/",
     },
     {
@@ -17,7 +16,7 @@ const NewsSection = () => {
       title: "lorem ipsum dolor sit amet - lorem ipsum dolor sit amet",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-      image: logo,
+      image: "",
       link: "/noticias/",
     },
     {
@@ -26,29 +25,27 @@ const NewsSection = () => {
       title: "lorem ipsum dolor sit amet - lorem ipsum dolor sit amet",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-      image: logo,
+      image: "",
       link: "/noticias/",
     },
   ];
 
   return (
-    <section
-      className="min-h-screen bg-no-repeat bg-cover relative overflow-hidden  "
-      style={{
-        backgroundImage: `url(${fundoSection})`,
-      }}>
+    <section className="min-h-screen bg-no-repeat bg-cover relative overflow-hidden  ">
       <div className="relative z-10">
         <div className="flex items-start justify-between p-8">
           <div>
-            <h2 className="text-4xl font-bold  ">Nossa Ultimas Notícias</h2>
+            <h2 className="text-4xl font-bold text-[#C54930]">
+              Nossa Ultimas Notícias
+            </h2>
             <p className="text-gray-800">
               Fique por dentro das últimas novidades
             </p>
           </div>
           <a
             href="/noticias"
-            className="inline-flex items-center px-4 py-2 border border-purple-600 text-purple-600 rounded-md hover:bg-purple-600 hover:text-white transition-colors duration-200 bg-transparent">
-            MAIS NOTÍCIAS
+            className="inline-flex items-center px-4 py-2 border-2 border-[#244A67] text-[#244A67] rounded-md hover:bg-[#244A67] hover:text-white transition-colors duration-200 bg-transparent">
+            Ver Mais
             <svg
               className="ml-2 h-4 w-4"
               fill="none"
